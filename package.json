@@ -1,0 +1,22 @@
+{
+  "name": "moss-and-timber",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A cinematic, interactive Three.js forest cabin.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "serve": "node serve.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.5"
+  }
+}
